@@ -7,6 +7,7 @@ DEFAULT_RPCS = {
     "arbitrum": os.getenv("RPC_ARBITRUM", "https://arbitrum-one.publicnode.com"),
     "polygon":  os.getenv("RPC_POLYGON", "https://polygon-bor.publicnode.com"),
     "bsc":      os.getenv("RPC_BSC", "https://bsc-dataseed.binance.org"),
+    "optimism":      os.getenv("RPC_BSC", "https://optimism.publicnode.com"),
 }
 
 def get_rpc(chain: str) -> str:
